@@ -1,6 +1,6 @@
 const fs = require('fs')
 const dados = [
-    
+
 ]
 function writeFile(content){
     try{
@@ -9,4 +9,8 @@ function writeFile(content){
         console.error(err)
     }
 }
-writeFile()
+function createNewDado(){
+    const id = uuidv4()
+    const data = Date.now()
+    
+}

@@ -2,6 +2,18 @@
   "dependencies": {
     "express": "^5.1.0",
     "fs": "^0.0.1-security",
-    "nodemon": "^3.1.10"
-  }
+    "nodemon": "^3.1.10",
+    "uuid": "^11.1.0"
+  },
+  "name": "okoke",
+  "version": "1.0.0",
+  "main": "main.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
