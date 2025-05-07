@@ -1,17 +1,12 @@
 const fs = require('fs')
-
-function updateLog(){
-    fs.readFileSync('log.txt', 'utf-8', (err,data) =>{
-
-    })
-}
 const dados = [
     
 ]
-
-function writeInLog(){
-    fs.writeFileSync('log.txt', 'utf-8', (err,data)=> {
-
-    })
+function writeFile(content){
+    try{
+        fs.writeFileSync('log.txt',content,{flag:'a'})
+    }catch{
+        console.error(err)
+    }
 }
-printLogs()
+writeFile()
